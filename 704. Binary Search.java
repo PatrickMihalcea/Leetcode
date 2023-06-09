@@ -21,5 +21,9 @@ class Solution {
         }
 
         return -1;
+        
+        // OR this one liner:
+        // return (Arrays.binarySearch(nums, target) >= 0) ? Arrays.binarySearch(nums, target) : -1;
+        
     }
 }
