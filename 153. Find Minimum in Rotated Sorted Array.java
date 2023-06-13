@@ -7,7 +7,6 @@ class Solution {
         int minimumValue = nums[right];
 
         while (left <= right) {
-            int leftVal = nums[left];
             int rightVal = nums[right];
             int midPoint = (left + right) / 2;
             int midVal = nums[midPoint];
